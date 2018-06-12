@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationEvents", "IntegrationEvents\IntegrationEvents.csproj", "{7D23735A-797B-4273-A589-4F5B6C91F704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D23735A-797B-4273-A589-4F5B6C91F704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D23735A-797B-4273-A589-4F5B6C91F704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D23735A-797B-4273-A589-4F5B6C91F704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D23735A-797B-4273-A589-4F5B6C91F704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEBBCF2B-3B14-4EE4-B85A-4534EEE7FDC7}
+	EndGlobalSection
+EndGlobal
