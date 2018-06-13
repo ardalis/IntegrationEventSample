@@ -287,6 +287,9 @@
     <Compile Include="Models\Entities\NewsfeedItem.cs" />
     <Compile Include="Models\Entities\Student.cs" />
     <Compile Include="Models\Entities\TrainingCourse.cs" />
+    <Compile Include="Models\Handlers\NewsfeedEventHandler.cs" />
+    <Compile Include="Models\Handlers\NewsfeedUserRegistrationDTO.cs" />
+    <Compile Include="Models\Handlers\StudentRegistrationNewsfeedMediatrHandler.cs" />
     <Compile Include="Models\Handlers\StudentRegistrationNewsfeedHandler.cs" />
     <Compile Include="Models\IHandle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
