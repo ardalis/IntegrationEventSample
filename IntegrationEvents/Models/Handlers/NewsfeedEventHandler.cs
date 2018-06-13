@@ -1,6 +1,4 @@
-﻿using IntegrationEvents.Models.Events;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Data.Entity;
 using MediatR;
 

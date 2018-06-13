@@ -1,8 +1,4 @@
-﻿using IntegrationEvents.Models.Events;
-using System.Linq;
-using System.Web;
-using System.Data.Entity;
-using MediatR;
+﻿using MediatR;
 
 namespace IntegrationEvents.Models.Handlers
 {
