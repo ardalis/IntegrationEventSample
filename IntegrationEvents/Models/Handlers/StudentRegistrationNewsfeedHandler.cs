@@ -17,6 +17,13 @@ namespace IntegrationEvents.Models.Handlers
             _db = db;
         }
 
+        /// <summary>
+        /// This method is responsible for translating from the domain event (NewStudentRegistrationEvent) to an
+        /// integration event which may be denormalized. In this example the integration event is represented by
+        /// the NewsfeedItem entity, but this method could as easily be creating a DTO or some JSON to be sent to 
+        /// a queue or external API endpoint.
+        /// </summary>
+        /// <param name="args"></param>
         public void Handle(NewStudentRegistrationEvent args)
         {
             var cookieString = _currentContext.Request.Cookies["UserCookie"].Value;
